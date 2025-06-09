@@ -1,0 +1,90 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #F8D800;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  height: 100%;
+}
+
+.currency-converter-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+input[type="number"] {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+input[type="number"]:focus {
+  border-color: #555;
+}
+
+.select-currency-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#convert-currency-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
+}
